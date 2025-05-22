@@ -72,12 +72,12 @@
 .notification {
   color: white;
   font-style: italic;
-  margin: 5px auto;           /* top-bottom 5px, left-right auto for center */
+  margin: 5px auto;        
   text-align: center;
   padding: 6px;
   width: 50%;
   background-color: green;
-  border-radius: 6px;         /* optional: makes it look cleaner */
+  border-radius: 6px;         
 }
 
 
