@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
-    origin: "*", // you can restrict to your frontend URL
+    origin: "*", 
     methods: ["GET", "POST"]
   }
 });
@@ -40,7 +40,7 @@ io.on('connection', (socket) => {
   });
 
   socket.on('typing', (username) => {
-    socket.broadcast.emit('user-typing', username); // notify others
+    socket.broadcast.emit('user-typing', username); 
   });
 
   socket.on('stop-typing', (username) => {
