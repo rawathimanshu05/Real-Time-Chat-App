@@ -116,12 +116,7 @@ function Chatpage() {
                     </div>
 
                     <div className="chat-input">
-                        <input
-                            type="text"
-                            placeholder="Type message..."
-                            value={message}
-                            onChange={handleTyping}
-                        />
+                        <input  type="text" placeholder="Type message..." value={message} onChange={handleTyping} />
                         <button onClick={handleSend}>Send</button>
                     </div>
                 </div>
