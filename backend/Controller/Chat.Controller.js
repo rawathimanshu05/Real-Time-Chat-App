@@ -2,7 +2,7 @@ const express = require('express');
 
 const usermodel = require('../Models/User.Model')
 
-const chatmodel = require('../Models/Chat.Model')
+// const chatmodel = require('../Models/Chat.Model')
 
 const userlogin = async(req,res) =>{
     try{
